@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>留言本项目</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+</head>
+<body>
+<div class="container">
+    <h2 class="text-center">留言本</h2>
+    <form class="form-horizontal" action="post.php" method="post">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">留言标题：</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" placeholder="标题" required/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">留&nbsp;&nbsp;言&nbsp;&nbsp;者：</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="username" placeholder="签名" required/>
+            </div>
+        </div>
+        <div class="form-group">
+                <label class="col-sm-2 control-label"> 留言内容：</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" name="content" placeholder="每一句，都是一个故事。" rows="5" required></textarea>
+                </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-6 col-sm-10">
+                <button type="submit" formmethod="post" class="btn btn-primary">
+                    <i class="fa fa-paper-plane"></i> 提交
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
