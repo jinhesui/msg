@@ -1,7 +1,7 @@
 # 简单留言本
 
-    ![](https://github.com/jinhesui/msg/raw/master/post.png)  
+    ![image](https://github.com/jinhesui/msg/master/post.png)
     
     
-    ![](https://github.com/jinhesui/msg/raw/master/list.png)
+    ![image](https://github.com/jinhesui/msg/master/list.png)
 
