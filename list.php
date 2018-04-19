@@ -19,7 +19,7 @@ $list = getAll($sql,$conn);
     <div class="container">
         <div class="table-responsive">
             <table class="table">
-                <caption>留言列表</caption>
+                <caption>留言列表&nbsp;&nbsp;&nbsp;<a href="post.html"><i class="fa fa-plus"></i></a></caption>
                 <thead>
                 <tr>
                     <th>#</th>
