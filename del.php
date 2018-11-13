@@ -27,7 +27,7 @@ $rs = $conn->query($sql);
 </body>
 <script>
     function goto() {
-        window.location.href = 'list.php';
+        window.location.href = 'index.php';
     }
     window.setTimeout('goto()',2000);
 </script>
